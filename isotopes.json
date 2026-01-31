@@ -1,0 +1,37 @@
+{
+    "U-238" : 
+    {
+        "name" : "Uranium", 
+        "Z" : 92, 
+        "A" : 238, 
+        "half_life" : 4.47e9,
+        "unit" : "years", 
+        "decay_type" : "alpha", 
+        "daughter" : "Th-234" 
+
+    }, 
+
+    "Th-234" : {
+        "name" : "Thorium", 
+        "Z" : 90, 
+        "A" : 234, 
+        "half_life" : 24.1,
+        "unit" : "days", 
+        "decay_type" : "beta-", 
+        "daughter" : "Pa-234" 
+    }, 
+
+    "Pa-234" : {
+        "name" : "Protactinium", 
+        "Z" : 91, 
+        "A" : 234, 
+        "half_life" : 1.16,
+        "unit" : "minutes", 
+        "decay_type" : "beta-", 
+        "daughter" : "U-234" 
+    }
+
+
+
+
+}
